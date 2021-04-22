@@ -1,5 +1,5 @@
 
-[![Build Status](https://travis-ci.org/Aiyoumi-FE/aym-ui.svg?branch=master)](https://travis-ci.org/Aiyoumi-FE/aym-ui)
+[![Build Status](https://travis-ci.org/LDXu/aym-ui.svg?branch=master)](https://travis-ci.org/LDXu/aym-ui)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 ## 爱又米专用VUE组件库。
@@ -8,9 +8,9 @@
 
 ### 文档
 
-[文档地址](https://aiyoumi-fe.github.io/aym-ui/document.html#/)
+[文档地址](https://LDXu.github.io/aym-ui/document.html#/)
 
-[示例地址](https://aiyoumi-fe.github.io/aym-ui/examples.html#/)
+[示例地址](https://LDXu.github.io/aym-ui/examples.html#/)
 
 
 ### 使用说明

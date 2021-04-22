@@ -2,12 +2,12 @@ language: node_js
 node_js: stable
 cache:
   directories:
-  - node_modules
+    - node_modules
 install: npm install
 notifications:
   email:
     recipients:
-      - zhouqing2@aiyoumi.com
+      - zhouqing2@LDXu.com
     on_success: always # default: change
     on_failure: always # default: always
 branches:
@@ -16,8 +16,8 @@ branches:
     - dev
 jobs:
   include:
-  - stage: test
-    script: npm run jest
+    - stage: test
+      script: npm run jest
   # - stage: deploy
   #   script: npm run build
   #   deploy:
@@ -27,8 +27,8 @@ jobs:
   #     github-token: "$git_token"
   #     on:
   #       branch: dev
-  #       repo: Aiyoumi-FE/aym-ui
+  #       repo: LDXu/aym-ui
 after_success:
-  - "curl -o /tmp/travis-automerge https://raw.githubusercontent.com/zq741235/travis-automerge/master/travis-automerge"
-  - "chmod a+x /tmp/travis-automerge"
-  - "BRANCHES_TO_MERGE_REGEX='^dev$' BRANCH_TO_MERGE_INTO=master GITHUB_REPO=Aiyoumi-FE/aym-ui /tmp/travis-automerge"
+  - 'curl -o /tmp/travis-automerge https://raw.githubusercontent.com/zq741235/travis-automerge/master/travis-automerge'
+  - 'chmod a+x /tmp/travis-automerge'
+  - "BRANCHES_TO_MERGE_REGEX='^dev$' BRANCH_TO_MERGE_INTO=master GITHUB_REPO=LDXu/aym-ui /tmp/travis-automerge"
